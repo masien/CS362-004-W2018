@@ -1,0 +1,11 @@
+Nick Masie
+CS  362
+2/5/18
+
+Random Testing Quiz
+
+char inputChar(): There is not much to write about the inputChar() function, as it is simply one line that generates a random character within the ASCII range 32 through 126, which represents the characters “space” all the way through the tilde (~).  These characters serve as counters/flags in the testme() function that increase the state counter when the random characters are discovered until it hits 9 in this specific sequence: ‘[‘, ‘(‘, ‘{‘, ‘ ‘, ‘a’, ‘x’, ‘}’, ‘)’, ‘]’. 
+
+char *inputString():  My inputString() function simply generates a random string of 5 characters within the ASCII range 101 through 122, which represents all of the lowercase letters ‘e’ through ‘t’, and then adds a terminating 0 at the end.  This random string will continue to be generated until it generates the string “reset”.  I chose letters ‘e’ through ‘t’ in order to make the function time much faster because the letters ‘a’ through ‘d’ and ‘u’ through ‘z’ will never be in the word “reset”.
+
+Once the inputChar() function hits state 9 AND the inputString() function generates the string “reset”, then the goal is complete and the program terminates.
