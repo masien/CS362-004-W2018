@@ -1,7 +1,5 @@
 Name: Nick Masie
-
 ONID: masien
-
 Assignment: Quiz 2 - Random Testing Quiz
 
 To compile AND run the program, simply enter the command "make all".  This command will not only compile the testme.c program, but also create the testme executable in addition to automatically running that executable.
