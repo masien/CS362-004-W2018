@@ -1,4 +1,5 @@
 For the life of me, I could not get my makefile to work in time, but I know that my source files/tests work perfectly fine.
+The current "Makefile" gets you the individual code coverage of each function, while the "Makefile1" gets you the overall code coverage and lines hit of dominion.c like it did in previous assignments.
 I know I have to be super close as you can see from my makefile, and if I had more time I could probably figure it out, but all of these assignments and midterm exams due on this week alone have me short on time, so unfortunately this will have to do for now...
 I hate to lose points over something as silly as this... :'(
 
