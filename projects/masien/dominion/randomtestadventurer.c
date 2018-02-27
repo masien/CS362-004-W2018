@@ -88,7 +88,7 @@ int main()
 		// TEST 1: check that there is a net gain of 1 in handcount
 		printf("TEST 1: check that there is a net gain of 1 in handcount\n");
 		
-		cardEffect(adventurer, choice1, choice2, choice3, &testG, handpos, &bonus);
+		cardEffect(adventurer, 0, 0, 0, &testG, 1, 0);
 		
 		//put played card in played card pile
 		//discardCard(handpos, curPlayer, &testG, 0);
