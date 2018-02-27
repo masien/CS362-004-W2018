@@ -52,7 +52,7 @@ int main()
 		printf("testG.hand[0][%d] = (%d)\n", ii, testG.hand[curPlayer][ii]);
 	}
 	
-	cardEffect(feast, smithy, choice2, choice3, &testG, handpos, &bonus);
+	cardEffect(feast, 0, 0, 0, &testG, 0, 0);
 	//put played card in played card pile
     //discardCard(handpos, curPlayer, &testG, 0);
 	
