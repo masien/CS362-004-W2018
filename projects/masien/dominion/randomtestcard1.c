@@ -91,7 +91,7 @@ int main()
 		
 		choice1 = 2;
 		
-		cardEffect(steward, choice1, choice2, choice3, &testG, handpos, &bonus);
+		cardEffect(steward, 0, 0, 0, &testG, 0, 0);
 		
 		if ((testG.handCount[curPlayer] == G.handCount[curPlayer] - 1) && (testG.coins == G.coins + 2))
 		{
@@ -132,7 +132,7 @@ int main()
 			testG.hand[curPlayer][j] = randNum;
 		}
 		
-		cardEffect(steward, 0, 0, 0, &testG, 1, 0);
+		cardEffect(steward, choice1, choice2, choice3, &testG, handpos, &bonus);
 		
 		// generate random # 1-4 to generate random value for choice2
 		choice2 = (rand() % 4) + 1;
