@@ -56,7 +56,7 @@ int main()
 	// TEST 2: + 2 coins
 	printf("TEST 2: +2 coins...\n");
 	choice1 = 2;
-	cardEffect(steward, choice1, choice2, choice3, &testG, handpos, &bonus);
+	cardEffect(steward, 0, 0, 0, &testG, 0, 0);
 	
 	if ((testG.handCount[curPlayer] == G.handCount[curPlayer] - 1) && (testG.coins == G.coins + 2))
 	{
