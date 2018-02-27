@@ -73,7 +73,7 @@ int main()
 			printf("testG.hand[0][%d] = (%d)\n", ii, testG.hand[curPlayer][ii]);
 		}
 		
-		cardEffect(smithy, choice1, choice2, choice3, &testG, handpos, &bonus);
+		cardEffect(smithy, 0, 0, 0, &testG, 1, 0);
 		//put played card in played card pile
 		//discardCard(handpos, curPlayer, &testG, 0);
 		
