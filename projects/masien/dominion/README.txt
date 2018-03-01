@@ -24,5 +24,7 @@ I hate to lose points over something as silly as this... :'(
 15) Enter the command "randomcardtestadventurer"
 16) Enter the command "gcov randomtestcardadventurer.c"
 
+17) If you'd like to run all of the above tests on my own dominion.c code instead of my partner's, simply rename my partner's "dominion.c" to "teammatesdominion.c" and then rename my "mydominion.c" to "dominion.c" so that the makefile and tests will now run properly with my version of dominion instead of my partner's.
+
 After all of these commands, you should be able to see the gcov code coverage percentage that is outputted to the console, as well as actual lines hit in the respective ".gcov" files.
 I'm hoping for a little mercy on this grade, as I worked extremely hard on it, and we were never really taught makefiles at all throughout the entire program, but as you can see my testing should be mostly on point, which should be the main focus of this assignment.
